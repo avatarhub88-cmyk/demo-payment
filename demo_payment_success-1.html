@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demo Payment</title>
+<style>
+body{margin:0;background:#f5f7f8;font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;min-height:100vh}
+.card{width:min(390px,88vw);background:white;border-radius:24px;padding:28px 22px;box-shadow:0 8px 30px #0001;text-align:center}
+.demo{display:inline-block;background:#0b9b68;color:white;font-weight:800;padding:10px 30px;border-radius:25px;letter-spacing:2px}
+.check{margin:25px auto 15px;width:82px;height:82px;border-radius:50%;background:#0b9b68;color:white;font-size:52px;line-height:82px}
+h1{color:#087d55;font-size:27px;margin:10px 0}
+.sub{color:#667085}
+.amount{background:#edf9f4;border-radius:16px;text-align:left;padding:17px;margin:25px 0}
+.label{color:#667085;font-size:14px}.amount b{font-size:30px;display:block;margin-top:5px}
+.row{display:flex;justify-content:space-between;margin:13px 0;color:#344054}
+button{width:100%;border:0;border-radius:25px;padding:14px;background:#0b9b68;color:white;font-size:17px;font-weight:bold}
+.note{margin-top:20px;color:#087d55;font-size:12px;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="demo">DEMO</div>
+<div class="check">✓</div>
+<h1>Payment Successful!</h1>
+<p class="sub">Your demo payment has been completed successfully.</p>
+<div class="amount"><span class="label">Amount Paid</span><b>₹100.00</b></div>
+<div class="row"><span>Transaction ID</span><b>DEMO-123456</b></div>
+<div class="row"><span>Payment Method</span><b>DEMO UPI</b></div>
+<div class="row"><span>Status</span><b>Successful</b></div>
+<button>Done</button>
+<div class="note">DEMO SCREEN — NOT A REAL TRANSACTION</div>
+</div>
+</body>
+</html>
